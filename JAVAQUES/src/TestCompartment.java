@@ -10,13 +10,13 @@ public class TestCompartment {
             n = sc.nextInt();
             switch(n) {
                 case 1:
-                    arr[i] = new FirstClass();
+                    arr[i] = new Luggage();
                    break;
                 case 2:
-                    arr[i] = new Luggage();
+                    arr[i] = new Ladies();
                     break;
                 case 3:
-                    arr[i] = new Ladies();
+                    arr[i] = new FirstClass();
                     break;
                 case 4:
                     arr[i] = new General();
