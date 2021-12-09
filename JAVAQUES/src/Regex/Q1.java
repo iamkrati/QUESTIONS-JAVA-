@@ -10,7 +10,7 @@ import java.util.regex.Pattern;
 
 public class Q1 {
         public static void main(String[] args){
-            Pattern p = Pattern.compile("[\\w.]*@gmail.com");
+            Pattern p = Pattern.compile("[\\w._]+@gmail.com");
             Scanner sc = new Scanner(System.in);
             System.out.println("enter email");
             String email;
